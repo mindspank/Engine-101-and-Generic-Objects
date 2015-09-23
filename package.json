@@ -1,0 +1,28 @@
+{
+  "name": "engine-101-and-generic-objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1 - Create Apps.js",
+  "dependencies": {
+    "buildapp": "^1.0.0",
+    "fs-promise": "^0.3.1",
+    "promise": "^7.0.1",
+    "fs-extra": "^0.23.1",
+    "serializeapp": "^1.0.0",
+    "qsocks": "^0.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindspank/Engine-101-and-Generic-Objects.git"
+  },
+  "author": "Alexander Karlsson <akl@qlik.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindspank/Engine-101-and-Generic-Objects/issues"
+  },
+  "homepage": "https://github.com/mindspank/Engine-101-and-Generic-Objects"
+}
