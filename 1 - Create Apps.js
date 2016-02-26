@@ -1,4 +1,5 @@
-var qsocks = require('qsocks')
+const qsocks = require('qsocks');
+const Promise = require('bluebird');
 
 qsocks.Connect()
 .then(function(global) {
@@ -6,7 +7,7 @@ qsocks.Connect()
 	//We now have a global handle - lets create some apps!
 	
 	for (var index = 0; index < 50; index++) {
-		global.createApp('UKDevMeetupApps' + index + '.qvf')
+		global.createApp('ConsultingPresentation' + index + '.qvf')
 	}
 	
-})
+});

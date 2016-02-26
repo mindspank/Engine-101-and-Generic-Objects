@@ -1,0 +1,287 @@
+{
+    "qInfo": {
+        "qId": "BHTXyNM",
+        "qType": "masterobject"
+    },
+    "qMeta": {
+        "title": "Expenses as % Sales",
+        "description": "The expenses as a percentage of the sales.",
+        "tags": [
+            "expenses"
+        ]
+    },
+    "qSelectionInfo": {},
+    "qHyperCube": {
+        "qSize": {
+            "qcx": 2,
+            "qcy": 10
+        },
+        "qDimensionInfo": [
+            {
+                "qFallbackTitle": "Account",
+                "qApprMaxGlyphCount": 30,
+                "qCardinal": 45,
+                "qSortIndicator": "A",
+                "qGroupFallbackTitles": [
+                    "Account"
+                ],
+                "qGroupPos": 0,
+                "qStateCounts": {
+                    "qLocked": 0,
+                    "qSelected": 0,
+                    "qOption": 38,
+                    "qDeselected": 0,
+                    "qAlternative": 0,
+                    "qExcluded": 7,
+                    "qSelectedExcluded": 0,
+                    "qLockedExcluded": 0
+                },
+                "qTags": [
+                    "$ascii",
+                    "$text"
+                ],
+                "qDimensionType": "D",
+                "qGrouping": "N",
+                "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 0,
+                    "qUseThou": 0
+                },
+                "qIsAutoFormat": true,
+                "qGroupFieldDefs": [
+                    "AccountDesc"
+                ],
+                "title": "Account",
+                "autoSort": true,
+                "cId": "aZSgev",
+                "othersLabel": "Others"
+            }
+        ],
+        "qMeasureInfo": [
+            {
+                "qFallbackTitle": "Expenses % of Sales",
+                "qApprMaxGlyphCount": 18,
+                "qCardinal": 0,
+                "qSortIndicator": "D",
+                "qNumFormat": {
+                    "qType": "R",
+                    "qnDec": 0,
+                    "qUseThou": 0,
+                    "qFmt": "##############",
+                    "qDec": ".",
+                    "qThou": ","
+                },
+                "qMin": 0.0023570949162344556,
+                "qMax": 0.15258468271667883,
+                "qIsAutoFormat": true,
+                "qAttrExprInfo": [],
+                "autoSort": true,
+                "cId": "QNNFMu"
+            }
+        ],
+        "qEffectiveInterColumnSortOrder": [
+            1,
+            0
+        ],
+        "qGrandTotalRow": [
+            {
+                "qText": "0.51479006414417",
+                "qNum": 0.5147900641441725,
+                "qElemNumber": -1,
+                "qState": "X",
+                "qIsTotalCell": true
+            }
+        ],
+        "qDataPages": [
+            {
+                "qMatrix": [
+                    [
+                        {
+                            "qText": "Salaries and Wages",
+                            "qNum": "NaN",
+                            "qElemNumber": 0,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.15258468271668",
+                            "qNum": 0.15258468271667883,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Commission",
+                            "qNum": "NaN",
+                            "qElemNumber": 8,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.10567928295477",
+                            "qNum": 0.10567928295477297,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Local Advertising",
+                            "qNum": "NaN",
+                            "qElemNumber": 7,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.047868932049844",
+                            "qNum": 0.047868932049844444,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Salary On Costs",
+                            "qNum": "NaN",
+                            "qElemNumber": 5,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.044773020388962",
+                            "qNum": 0.04477302038896173,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Lease Costs",
+                            "qNum": "NaN",
+                            "qElemNumber": 19,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.029307579620592",
+                            "qNum": 0.029307579620591623,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Depreciation",
+                            "qNum": "NaN",
+                            "qElemNumber": 39,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.027795080625756",
+                            "qNum": 0.027795080625755655,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Reps Commission",
+                            "qNum": "NaN",
+                            "qElemNumber": 4,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.016426793877385",
+                            "qNum": 0.016426793877385285,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Communications",
+                            "qNum": "NaN",
+                            "qElemNumber": 11,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.014780929841111",
+                            "qNum": 0.014780929841111439,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qText": "Rent and Outgoings",
+                            "qNum": "NaN",
+                            "qElemNumber": 29,
+                            "qState": "O"
+                        },
+                        {
+                            "qText": "0.01416790165195",
+                            "qNum": 0.01416790165194988,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ],
+                    [
+                        {
+                            "qNum": "NaN",
+                            "qElemNumber": -3,
+                            "qState": "L",
+                            "qIsOtherCell": true
+                        },
+                        {
+                            "qText": "0.0023570949162345",
+                            "qNum": 0.0023570949162344556,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                        }
+                    ]
+                ],
+                "qTails": [
+                    {
+                        "qUp": 0,
+                        "qDown": 0
+                    }
+                ],
+                "qArea": {
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 2,
+                    "qHeight": 10
+                }
+            }
+        ],
+        "qPivotDataPages": [],
+        "qStackedDataPages": [],
+        "qMode": "S",
+        "qNoOfLeftDims": -1
+    },
+    "metadata": {},
+    "showTitles": true,
+    "title": "Expenses as % Sales",
+    "subtitle": "",
+    "footnote": "",
+    "donut": {
+        "showAsDonut": false
+    },
+    "dimensionTitle": true,
+    "dataPoint": {
+        "auto": false,
+        "labelMode": "share"
+    },
+    "color": {
+        "auto": false,
+        "mode": "byMeasure",
+        "singleColor": "#4477aa",
+        "persistent": false,
+        "measureScheme": "sg",
+        "reverseScheme": false,
+        "dimensionScheme": "12"
+    },
+    "legend": {
+        "show": false,
+        "dock": "auto",
+        "showTitle": true
+    },
+    "visualization": "piechart",
+    "masterVersion": 0.96
+}

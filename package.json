@@ -4,12 +4,13 @@
   "description": "",
   "main": "1 - Create Apps.js",
   "dependencies": {
+    "bluebird": "^3.3.1",
     "buildapp": "^1.0.0",
+    "fs-extra": "^0.23.1",
     "fs-promise": "^0.3.1",
     "promise": "^7.0.1",
-    "fs-extra": "^0.23.1",
-    "serializeapp": "^1.0.0",
-    "qsocks": "^0.0.22"
+    "qsocks": "^0.0.22",
+    "serializeapp": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
